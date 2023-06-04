@@ -29,11 +29,11 @@ module.exports = {
       { text: '作者', link: '/about' },
     ],
     sidebar: {
-        '/java/jvm/': [
-            '',  //该目录下的README.md文件
-            'a', //该目录下的a.md文件
-            'b'  //该目录下的a.md文件
-        ],
+//        '/java/jvm/': [
+//            '',  //该目录下的README.md文件
+//            'a', //该目录下的a.md文件
+//            'b'  //该目录下的a.md文件
+//        ],
 
         '/algorithm/code/': [
 //            {
@@ -45,7 +45,7 @@ module.exports = {
             {
                 title: '动态规划',  //组名
                 children: [
-                    ['2713', '矩阵中严格递增的单元格数'],
+                    ['1547', '切棍子的最小成本'],
                     ['2713', '矩阵中严格递增的单元格数']
                 ]
             }
