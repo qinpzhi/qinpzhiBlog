@@ -22,7 +22,7 @@ module.exports = {
       {
         text: '算法学习',
         items: [
-//          { text: '算法思想',link: '/algorithm/thought/' },
+          { text: '算法思想',link: '/algorithm/thought/' },
           { text: '算法题', link: '/algorithm/code/' }
         ],
       },
@@ -48,8 +48,20 @@ module.exports = {
                     ['1547', '切棍子的最小成本'],
                     ['2713', '矩阵中严格递增的单元格数']
                 ]
+            },
+            {
+                title: '并查集',  //组名
+                children: [
+                    ['2709', '最大公约数遍历']
+                ]
+            },
+            {
+                title: '倒排索引',  //组名
+                children: [
+                    ['面试题17.26. 稀疏相似度', '稀疏相似度']
+                ]
             }
-        ],
+        ]
     },
     sidebarDepth: 2, // 侧边栏显示2级
   }
