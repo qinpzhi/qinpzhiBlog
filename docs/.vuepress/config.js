@@ -1,5 +1,5 @@
 module.exports = {
-  title: 'qinpz\'s blog',
+  title: '小覃学习日记',
   description: '我的个人网站',
   head: [ // 注入到当前页面的 HTML <head> 中的标签
     ['link', { rel: 'icon', href: '/logo.jpg' }], // 增加一个自定义的 favicon(网页标签的图标)
@@ -30,8 +30,17 @@ module.exports = {
     ],
     sidebar: {
         '/java/jvm/': [
-
-                ['类加载子系统', '类加载子系统']
+                ['', '概述'],
+                ['类加载子系统', '类加载子系统'],
+                ['运行时数据区','运行时数据区'],
+                ['面试题','面试题']
+//
+//                {
+//                    title: '运行时数据区',  //组名
+//                    children: [
+//                        ['程序计数器', '程序计数器']
+//                    ]
+//                }
 
 //            'ss':'类加载子系统' //该目录下的a.md文件
 ////            'b'  //该目录下的a.md文件
