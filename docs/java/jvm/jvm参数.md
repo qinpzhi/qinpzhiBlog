@@ -1,4 +1,4 @@
-
+## JVM参数
 
 - `-Xss` ：置线程的最大栈空间，栈的大小直接决定了函数调用的最大可达深度。
 - `-Xms` 用来表示堆的起始内存，等价于 `-XX:InitialHeapSize`（默认为物理内存的1/64）。
@@ -8,5 +8,4 @@
 - `-XX:MaxTenuringThreashold=<N>`进行设置去老年代所需要达到的标记次数，默认是15次。
 - `-XX:+PrintGCDetails`:输出详细的GC处理日志
   - 打印gc简要信息：① -xx:+printGC ② -verbose:gc
-
-- 
+  
