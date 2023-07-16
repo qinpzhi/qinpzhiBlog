@@ -8,4 +8,3 @@
 - `-XX:MaxTenuringThreashold=<N>`进行设置去老年代所需要达到的标记次数，默认是15次。
 - `-XX:+PrintGCDetails`:输出详细的GC处理日志
   - 打印gc简要信息：① -xx:+printGC ② -verbose:gc
-  

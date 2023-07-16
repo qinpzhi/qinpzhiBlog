@@ -34,6 +34,8 @@ module.exports = {
                 ['类加载子系统', '类加载子系统'],
                 ['运行时数据区','运行时数据区'],
                 ['对象实例化及访问定位','对象实例化及访问定位'],
+                ['执行引擎','执行引擎'],
+                ['StringTable','StringTable'],
                 ['jvm参数','JVM参数汇总'],
                 ['jvm命令','JVM调优命令'],
                 ['面试题','面试题']
@@ -92,5 +94,8 @@ module.exports = {
     },
     sidebarDepth: 2, // 侧边栏显示2级
   },
-  plugins: ['fulltext-search']
+  plugins: [
+  'fulltext-search',
+   '@vuepress/plugin-last-updated'
+  ]
 };

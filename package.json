@@ -16,6 +16,7 @@
     "vue-template-compiler": "^2.7.14"
   },
   "devDependencies": {
+    "@vuepress/plugin-last-updated": "^1.9.9",
     "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }
